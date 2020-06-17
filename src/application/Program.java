@@ -26,7 +26,7 @@ public class Program {
 
 	public static void printList(List<?> list) {
 		for (Object obj : list) {
-			System.out.println(obj + " ");
+			System.out.print(obj + " ");
 		}
 		System.out.println();
 	}
